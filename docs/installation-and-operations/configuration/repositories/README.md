@@ -79,7 +79,7 @@ To enable remote managed repositories, pass an absolute URL to the `manages` key
 	scm:
 	  subversion:
 	    manages: https://example.org/repos
-	    accesstoken: <Fixed access token passed to the endpoint>
+	    access_token: <Fixed access token passed to the endpoint>
 
 Upon creating and deleting repositories in the frontend, OpenProject will POST to this endpoint a JSON object containing information on the repository.
 
